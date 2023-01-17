@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.figma-logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.box {
+  --size: 50px;
+  width: var(--size);
+  height: var(--size);
+}
+
+.red {
+  ---color: red;
+  background-color: var(---color);
+  border-radius: 50% 0 0 50%;
+}
+
+.orange {
+  ---color: orange;
+  background-color: var(---color);
+  border-radius: 0 50% 50% 0;
+}
+
+.purple {
+  ---color: purple;
+  background-color: var(---color);
+  border-radius: 50% 0 0 50%;
+}
+
+.blue {
+  ---color: blue;
+  background-color: var(---color);
+  border-radius: 50%;
+}
+
+.green {
+  ---color: green;
+  background-color: var(---color);
+  border-radius: 50% 0 50% 50%;
+}
