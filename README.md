@@ -1,4 +1,11 @@
-# Carmen Ansio | TikTok challenge
+Figma Logo using CSS Grid and logical properties
+
+## Motivations:
+
+
+
+
+## Carmen Ansio | TikTok challenge
 
 [Carmen solving this challenge with Flexbox in TikTok]
 (https://www.tiktok.com/@carmenansio_/video/7186747216965520645)
