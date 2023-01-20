@@ -25,7 +25,7 @@ body {
 
 /* Subtle shadows just to visualize it */
 .container {
-  box-shadow: 
+  box-shadow:
     0px -1px 2px -1px rgba(255, 255, 255, 0.5),
     -1px 0px 2px -1px rgba(239, 239, 239, 0.7),
     1px 0px 2px -1px rgba(192, 192, 192, 0.6),
@@ -34,54 +34,44 @@ body {
 
 .figma-logo {
   display: grid;
-  /* Create an explicit grid of 2 columns / 2 rows */
+  /* You could create an explicit grid of 2 columns / 3 rows */
+  /* 
   grid-template-columns: repeat(2, var(--item-size));
-  grid-template-rows: repeat(3, var(--item-size));
+  grid-template-rows: repeat(3, var(--item-size)); 
+  */
   /* Or you could set a size for each box 
     to get the same result with implicit rows + fr units
   */
-  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(2, 1fr);
 }
 
-/* Not necessary with a explicit grid */
-/* .box {
-   height: var(--item-size); 
-}  */
+.box {
+  inline-size: var(--item-size);
+  block-size: var(--item-size);
+}
 
 .red {
   background: var(--c-red);
   border-radius: var(--radius) 0 0 var(--radius);
-  /* 'inline-size' is a logical property.
-    In language with writing mode horizontal oriented
-    inline-size = width */
-  inline-size: var(--item-size);
-  /* width: var(--item-size); */
+ 
 }
 
 .orange {
   background: var(--c-salmon);
   border-radius: 0 var(--radius) var(--radius) 0;
-  inline-size: var(--item-size);
-  /* width: var(--item-size); */
 }
 
 .purple {
   background: var(--c-violet);
   border-radius: var(--radius) 0 0 var(--radius);
-  inline-size: var(--item-size);
-  /* width: var(--item-size); */
 }
 
 .blue {
   background: var(--c-blue);
   border-radius: var(--radius);
-  inline-size: var(--item-size);
-  /* width: var(--item-size); */
 }
 
 .green {
   background-color: var(--c-green);
   border-radius: var(--radius) 0 var(--radius) var(--radius);
-  inline-size: var(--item-size);
-  /* width: var(--item-size); */
 }
