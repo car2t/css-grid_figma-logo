@@ -10,23 +10,30 @@ She threw down the challenge to make the logo using grid, so now it is my turn.
 
 ## Grid Solution
 
-First, using this tool, [imagecolorpicker](https://imagecolorpicker.com/)  and got the exact Figma logo colors. And I declared those and the background color as variables in the root of the document.
+First, I used this tool, [imagecolorpicker](https://imagecolorpicker.com/) to get the exact colours of the _Figma_ logo. And I declared those and the background colour as variables in the root of the document.
 
-Then, using the same trick, I have declared my foundation size as
-`--item-size`.
+Then, using the same trick as Carmen, I declared my base size as
+`item-size`.
 
-I have declared other variable for the rounded corners, `--radius: 50%;`.
+I declared another variable to create the rounded corners, `--radius: 50%;`.
 
-After that, I have declared a explicit grid using the basis size. And rounded the items using the declared variable `--radius` and the CSS 
+Then I declared an explicit grid using the base size. And rounded the elements using the declared variable `--radius` and the CSS 
 shorthand property `border-radius`.
 
-Finally, 
+I used the `inline-size` logical property to set the size of each box.
+
+Finally, I set the inline and block size of each element, wich in a language with writing mode horizontal oriented is equivalent to width and height of the element, respectivily. 
+
+## Learn more about logical properties
+
+- [web.dev](https://web.dev/learn/css/logical-properties/)
+- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties)
 
 ## You can see Carmen Ansio solving this challenge with flexbox in TikTok in the following link:
 
-[Carmen solving this challenge with Flexbox in TikTok](https://www.tiktok.com/@carmenansio_/video/7186747216965520645)
+- [Carmen solving this challenge with Flexbox in TikTok](https://www.tiktok.com/@carmenansio_/video/7186747216965520645)
 
-- Carmen Ansio 
+- Follow Carmen Ansio: 
 
 [GitHub](https://github.com/carmenansio/carmenansio) | 
 [Twitter](https://twitter.com/carmenansio)
