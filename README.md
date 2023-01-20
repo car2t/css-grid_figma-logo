@@ -4,9 +4,9 @@
 
 I saw a tweet by Carmen Ansio that showed how to create the logo of Figma in CSS with the help of flexbox.
 
-Her solution is clever: she sets the width of the elements, and then gives the container the same width as a pair of elements. Then, with the help of the `flex-wrap` CSS property, she stacks the elements in pairs in the way she wants.
+Her solution is clever: she sets the width of the elements, and then gives the container the same width as a pair of elements. After that, with the help of the `flex-wrap` CSS property, she stacks the elements in pairs as she wanted.
 
-She threw down the challenge to make the logo using grid, so now it is my turn.
+She threw down the challenge to make the logo using grid, so here it is.
 
 ## Grid Solution
 
@@ -22,7 +22,7 @@ shorthand property `border-radius`.
 
 I used the `inline-size` logical property to set the size of each box.
 
-Finally, I set the inline and block size of each element, which in a language with a horizontal writing mode corresponds to the width and height of the element.
+Finally, I set the inline and block size of each element, which in a language with a horizontal writing mode corresponds to the width and height of the element. This way the logo will look the same in differents writing modes.
 
 ## Learn more about logical properties
 
@@ -33,8 +33,5 @@ Finally, I set the inline and block size of each element, which in a language wi
 
 - [Carmen solving this challenge with Flexbox in TikTok](https://www.tiktok.com/@carmenansio_/video/7186747216965520645)
 
-Carmen Ansio: 
-
-[GitHub](https://github.com/carmenansio/carmenansio) | 
-[Twitter](https://twitter.com/carmenansio)
+Carmen Ansio: [GitHub](https://github.com/carmenansio/carmenansio) | [Twitter](https://twitter.com/carmenansio)
 
