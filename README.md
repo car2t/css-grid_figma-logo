@@ -22,7 +22,7 @@ shorthand property `border-radius`.
 
 I used the `inline-size` logical property to set the size of each box.
 
-Finally, I set the inline and block size of each element, wich in a language with writing mode horizontal oriented is equivalent to width and height of the element, respectivily. 
+Finally, I set the inline and block size of each element, which in a language with a horizontal writing mode corresponds to the width and height of the element.
 
 ## Learn more about logical properties
 
@@ -33,7 +33,7 @@ Finally, I set the inline and block size of each element, wich in a language wit
 
 - [Carmen solving this challenge with Flexbox in TikTok](https://www.tiktok.com/@carmenansio_/video/7186747216965520645)
 
-- Follow Carmen Ansio: 
+Carmen Ansio: 
 
 [GitHub](https://github.com/carmenansio/carmenansio) | 
 [Twitter](https://twitter.com/carmenansio)
