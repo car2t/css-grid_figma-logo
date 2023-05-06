@@ -16,6 +16,7 @@
 body {
   background: var(--c-background);
   height: 100vh;
+  block-size: 100vb;
   margin: 0;
   padding: 0;
   /* Center the div.container */
